@@ -1,0 +1,154 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Barra de navegación */
+header {
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #00bfff;
+}
+
+/* Imagen principal */
+.imagen-principal img {
+    width: 100%;
+    height: auto;
+}
+
+/* Título */
+.titulo {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.titulo h2 {
+    font-size: 1.5rem;
+}
+
+/* Modelos */
+.modelos {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px 50px;
+}
+
+.modelo {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imagen-modelo img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.info-modelo {
+    max-width: 300px;
+}
+
+.info-modelo h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.info-modelo p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.botones {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+/* Botones */
+.btn-ficha {
+    padding: 8px 15px;
+    border: 1px solid #000;
+    text-decoration: none;
+    color: #000;
+    font-size: 0.9rem;
+    border-radius: 3px;
+}
+
+.btn-ficha:hover {
+    background-color: #e6e6e6;
+}
+
+.btn-cotiza {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.btn-cotiza:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+}
+
+.footer-logo {
+    font-size: 1.2rem;
+}
+
+.info p {
+    margin: 2px 0;
+}
+
+.redes a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 15px;
+    transition: color 0.3s;
+}
+
+.redes a:hover {
+    color: #00bfff;
+}

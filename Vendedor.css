@@ -1,0 +1,170 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Barra de navegación */
+header {
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #00bfff;
+}
+
+/* Perfil usuario */
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-perfil {
+    text-align: right;
+    font-size: 0.9rem;
+}
+
+.info-perfil p {
+    font-weight: bold;
+}
+
+.perfil img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+/* Imagen principal */
+.imagen-principal img {
+    width: 100%;
+    height: auto;
+}
+
+/* Contenido principal */
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    gap: 50px;
+}
+
+/* Lista interesados */
+.lista-interesados {
+    flex: 1;
+}
+
+.lista-interesados h2 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.interesado {
+    margin-bottom: 15px;
+}
+
+.interesado p {
+    margin: 2px 0;
+}
+
+.interesado a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.interesado a:hover {
+    text-decoration: underline;
+}
+
+/* Detalle vehículo */
+.detalle-vehiculo {
+    flex: 1;
+    text-align: center;
+}
+
+.btn-publicar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn-publicar:hover {
+    background-color: #0056b3;
+}
+
+.vehiculo img {
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.vehiculo h3 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.vehiculo p {
+    margin: 3px 0;
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+}
+
+.footer-logo {
+    font-size: 1.2rem;
+}
+
+.info p {
+    margin: 2px 0;
+}
+
+.redes a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 15px;
+    transition: color 0.3s;
+}
+
+.redes a:hover {
+    color: #00bfff;
+}

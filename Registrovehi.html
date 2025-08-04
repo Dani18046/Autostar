@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendedor - AutoSTAR</title>
+    <link rel="stylesheet" href="Registrovehi.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <div class="logo">AutoSTAR</div>
+        <nav>
+            <ul>
+                <li><a href="#">Autos Nuevos</a></li>
+                <li><a href="#">Autos Usados</a></li>
+                <li><a href="#">Sedes</a></li>
+                <li><a href="#">Clientes</a></li>
+                <li><a href="#">Vendedores</a></li>
+            </ul>
+        </nav>
+        <button class="btn-editar">Editar</button>
+    </header>
+
+    <!-- Título -->
+    <section class="titulo">
+        <h2>Registrar el vehículo</h2>
+    </section>
+
+    <!-- Formulario de registro -->
+    <section class="formulario">
+        <form action="#" method="post">
+            <div class="fila">
+                <input type="text" name="modelo" placeholder="Modelo">
+                <input type="text" name="placa" placeholder="Placa">
+            </div>
+            <div class="fila">
+                <select name="estado">
+                    <option value="">Estado</option>
+                    <option value="Nuevo">Nuevo</option>
+                    <option value="Usado">Usado</option>
+                </select>
+                <select name="color">
+                    <option value="">Color</option>
+                    <option value="Blanco">Blanco</option>
+                    <option value="Negro">Negro</option>
+                    <option value="Gris">Gris</option>
+                </select>
+            </div>
+            <div class="fila">
+                <select name="categoria">
+                    <option value="">Categoría</option>
+                    <option value="Automóvil">Automóvil</option>
+                    <option value="SUV">SUV</option>
+                    <option value="Campero">Campero</option>
+                    <option value="Eléctrico">Eléctrico</option>
+                </select>
+                <input type="number" name="precio" placeholder="Precio">
+            </div>
+            <textarea name="descripcion" placeholder="Descripción"></textarea>
+            <button type="submit" class="btn-registrar">Registrar</button>
+        </form>
+    </section>
+
+    <!-- Vehículos publicados -->
+    <section class="tus-vehiculos">
+        <h2>Tus vehículos</h2>
+        <div class="vehiculos-grid">
+            <div class="vehiculo">
+                <img src="Gla.jpg" alt="Mercedes GLA">
+                <p>Mercedes-Benz Clase GLA 1.6 Urban</p>
+                <div class="acciones">
+                    <a href="#" class="btn-consultar">Consultar</a>
+                    <a href="#" class="btn-modificar">Modificar</a>
+                </div>
+            </div>
+
+            <div class="vehiculo">
+                <img src="vehi2.jpg" alt="Mercedes GLA">
+                <p>Mercedes-Benz Clase GLA 1.6 Urban</p>
+                <div class="acciones">
+                    <a href="#" class="btn-consultar">Consultar</a>
+                    <a href="#" class="btn-modificar">Modificar</a>
+                </div>
+            </div>
+
+            <div class="vehiculo">
+                <img src="vehi3.jpg" alt="Mercedes GLA">
+                <p>Mercedes-Benz Clase GLA 1.6 Urban</p>
+                <div class="acciones">
+                    <a href="#" class="btn-consultar">Consultar</a>
+                    <a href="#" class="btn-modificar">Modificar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">
+            <img src="Mercedez.png" alt="">
+        </div>
+        <div class="botones-footer">
+            <a href="#" class="btn-footer">Cotiza aquí</a>
+            <a href="#" class="btn-footer">Agendar Cita</a>
+        </div>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
